@@ -37,5 +37,6 @@ kind: Secret
 metadata:
   name: secret1
 data:
+  //echo -n | base64 to decode echo <code> |base64 decode
   username: YWRtaW4=
   password: YWRtaW4xMjM=
